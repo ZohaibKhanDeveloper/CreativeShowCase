@@ -1,0 +1,160 @@
+*{
+    font-family: sans-serif;
+}
+#header{
+    background-color: #222;
+    color: #fff;
+    padding: 0.5rem;
+}
+#header .container{
+    padding: 1rem;
+}
+#header .template-name{
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    text-shadow: #fff 2px 0 20px;
+}
+#menu{
+    display: inline-block;
+    margin: 0.5rem;
+}
+#menu li,a{
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    margin: 0.5rem;
+}
+#menu a:hover{
+    text-decoration: underline;
+}
+.sec-name{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+#header button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+}
+#header button:hover{
+    background-color: #333;
+    color:white;
+}
+#hero{
+    background-color: #333;
+    color: #fff;
+    padding: 3rem;
+}
+.lbg{
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.lbg:hover{
+    background-color: #111;
+}
+.flex-column .col-md-7{
+    margin-bottom: 1rem;
+}
+.bold-me{
+    color: white;
+    font-style: italic;
+}
+.flex-column .col-md-7 h1{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+.col-md-7 h2,h4{
+    color: #999;
+}
+.col-md-7 a{
+    text-shadow: #999 2px 0 10px;
+    transition: 0.3s;
+}
+#type_me{
+    height: 100px;
+}
+#about,#portfolio{
+    background-color: #333;
+    color: #999;
+    padding: 3rem;
+    text-align: center;
+}
+.margin-line{
+    background-color: #fff;
+    height: 5px;
+    margin:0 auto;
+}
+.skill-card{
+    background-color: #111;
+    border-radius: 10px;
+    border-right: 3px solid white;
+    border-left: 3px solid white;
+    padding: 1rem;
+    margin-top: 15px;
+}
+.skill-card ul{
+    text-align: left;
+}
+.skill-card ul span,#portfolio span{
+    font-weight: bold;
+    color: white;
+}
+#form{
+    background-color: #333;
+    color: #999;
+    padding: 3rem;
+}
+#form .form-group{
+    margin-top: 15px;
+}
+#form .col-md-4 input,.col-md-12 textarea{
+    background: transparent;
+    color: #f7f7f7;
+}
+.form-control::placeholder{
+    color: #555;
+}
+#form input:focus{
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    outline: none;
+}
+#form textarea:focus{
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    outline: none;
+}
+#footer .container-fluid{
+    background-color: #333;
+    padding: 3rem;
+    color: #999;
+    text-align: center;
+}
+#footer h4{
+    font-family: cursive;
+    color: yellow;
+}
+.bi{
+    width: 20px;
+    height: 20px;
+    color: #999;
+}
+.bi:hover{
+    color: #f7f7f7;
+}
+#developer span{
+    color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:oblique;
+    display: inline;
+}
